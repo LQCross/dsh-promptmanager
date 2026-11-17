@@ -1,0 +1,6 @@
+# Prompt Manager bundle patch.
+# The Host half is inert; the Client half owns the Settings page and the
+# composer picker.
+- insert:
+    - id: prompt-manager
+      name: '@local/prompt-manager'
